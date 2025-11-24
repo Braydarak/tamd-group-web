@@ -1,12 +1,13 @@
 import Header from "./components/header";
 import CustomButton from "./components/customButton";
+import Hero from "./sections/hero";
 import "./App.css";
 
 function App() {
   return (
     <div>
       <Header />
-      {/* <Hero /> */}
+      <Hero />
       {/* <Empresas /> */}
       {/* Sección de demostración de botones */}
       <section className="min-h-screen bg-gray-100 flex items-center justify-center">
