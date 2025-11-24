@@ -1,23 +1,25 @@
-import Header from './components/header'
-import Hero from './sections/hero'
-import Empresas from './sections/empresas'
-import CustomButton from './components/customButton'
-import './App.css'
+import Header from "./components/header";
+import CustomButton from "./components/customButton";
+import "./App.css";
 
 function App() {
   return (
     <div>
       <Header />
-      <Hero />
-      <Empresas />
+      {/* <Hero /> */}
+      {/* <Empresas /> */}
       {/* Sección de demostración de botones */}
       <section className="min-h-screen bg-gray-100 flex items-center justify-center">
         <div className="text-center max-w-4xl mx-auto px-4">
-          <h2 className="text-4xl font-bold text-gray-800 mb-8">Demostración de Botones</h2>
-          
+          <h2 className="text-4xl font-bold text-gray-800 mb-8">
+            Demostración de Botones
+          </h2>
+
           {/* Botones en fondo claro */}
           <div className="bg-white p-8 rounded-lg shadow-lg mb-8">
-            <h3 className="text-2xl font-semibold text-gray-800 mb-6">Botones en Fondo Claro</h3>
+            <h3 className="text-2xl font-semibold text-gray-800 mb-6">
+              Botones en Fondo Claro
+            </h3>
             <div className="flex flex-wrap gap-4 justify-center">
               <CustomButton type="principal" size="lg">
                 Principal
@@ -36,7 +38,9 @@ function App() {
 
           {/* Botones en fondo oscuro */}
           <div className="bg-black p-8 rounded-lg shadow-lg">
-            <h3 className="text-2xl font-semibold text-white mb-6">Botones en Fondo Oscuro</h3>
+            <h3 className="text-2xl font-semibold text-white mb-6">
+              Botones en Fondo Oscuro
+            </h3>
             <div className="flex flex-wrap gap-4 justify-center">
               <CustomButton type="secondary" size="lg">
                 Secondary
@@ -57,11 +61,13 @@ function App() {
       <section className="min-h-screen bg-white flex items-center justify-center">
         <div className="text-center">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">Contacto</h2>
-          <p className="text-lg text-gray-600">Más contenido para demostrar el scroll</p>
+          <p className="text-lg text-gray-600">
+            Más contenido para demostrar el scroll
+          </p>
         </div>
       </section>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
