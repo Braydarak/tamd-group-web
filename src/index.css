@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+/* Efectos de máscaras para empresas */
+.mask-reveal {
+  mask: radial-gradient(circle at center, black 60%, transparent 100%);
+  -webkit-mask: radial-gradient(circle at center, black 60%, transparent 100%);
+}
+
+.logo-mask {
+  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.5));
+}
+
+/* Animación de partículas flotantes */
+@keyframes float-particle {
+  0% {
+    transform: translateY(0px) translateX(0px) scale(1);
+    opacity: 0.6;
+  }
+  25% {
+    transform: translateY(-15px) translateX(10px) scale(1.2);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(-30px) translateX(-5px) scale(0.8);
+    opacity: 0.4;
+  }
+  75% {
+    transform: translateY(-15px) translateX(15px) scale(1.1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(0px) translateX(0px) scale(1);
+    opacity: 0.6;
+  }
+}
+
+.animate-float-particle {
+  animation: float-particle ease-in-out infinite;
+}
+
+/* Efecto de revelado con máscara circular */
+@keyframes mask-reveal {
+  0% {
+    mask-size: 0% 0%;
+    -webkit-mask-size: 0% 0%;
+  }
+  100% {
+    mask-size: 100% 100%;
+    -webkit-mask-size: 100% 100%;
+  }
+}
+
+.mask-reveal-animation {
+  animation: mask-reveal 0.8s ease-out forwards;
+}
+
+/* Efecto de ondas para el fondo */
+@keyframes wave {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.wave-effect {
+  animation: wave 3s ease-in-out infinite;
+}
+
+/* Efecto de brillo para logos */
+@keyframes shine {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.shine-effect {
+  background: linear-gradient(
+    90deg,
+    transparent 30%,
+    rgba(255, 255, 255, 0.3) 50%,
+    transparent 70%
+  );
+  background-size: 200% 100%;
+  animation: shine 2s ease-in-out infinite;
+}
+
+/* Efecto de morphing para transiciones */
+@keyframes morph {
+  0% {
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    border-radius: 60% 40% 30% 70%;
+    transform: rotate(90deg) scale(1.1);
+  }
+  50% {
+    border-radius: 30% 70% 60% 40%;
+    transform: rotate(180deg) scale(0.9);
+  }
+  75% {
+    border-radius: 70% 30% 40% 60%;
+    transform: rotate(270deg) scale(1.05);
+  }
+  100% {
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+.morph-animation {
+  animation: morph 4s ease-in-out infinite;
+}
+
+/* Animación de carrusel infinito */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
