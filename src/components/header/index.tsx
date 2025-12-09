@@ -36,17 +36,19 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between md:justify-around h-full px-4">
           {/* Logo a la izquierda */}
           <div className="flex-shrink-0">
-            <img
-              src={
-                isMenuOpen
-                  ? tamdGroupLogoNegro
-                  : isScrolled
-                  ? tamdGroupLogoNegro
-                  : tamdGroupLogoBlanco
-              }
-              alt="TAMD Group"
-              className="h-10 md:h-12 lg:h-14 object-contain transition-all duration-300 ease-in-out"
-            />
+            <a href="#inicio" aria-label="Ir al inicio">
+              <img
+                src={
+                  isMenuOpen
+                    ? tamdGroupLogoNegro
+                    : isScrolled
+                    ? tamdGroupLogoNegro
+                    : tamdGroupLogoBlanco
+                }
+                alt="TAMD Group"
+                className="h-10 md:h-12 lg:h-14 object-contain transition-all duration-300 ease-in-out"
+              />
+            </a>
           </div>
           <div className="flex items-center">
             {/* Menú de navegación a la derecha */}
@@ -68,12 +70,12 @@ const Header: React.FC = () => {
                 Nuestras Empresas
               </a>
               <a
-                href="#servicios"
+                href="#ubicacion"
                 className={`font-medium transition-colors duration-300 hover:opacity-70 ${
                   isScrolled ? "text-gray-800" : "text-white"
                 }`}
               >
-                Servicios
+                Ubicación
               </a>
               <a
                 href="#contacto"
@@ -150,11 +152,11 @@ const Header: React.FC = () => {
               Nuestras Empresas
             </a>
             <a
-              href="#servicios"
+              href="#ubicacion"
               onClick={() => setIsMenuOpen(false)}
               className={`text-black text-2xl font-semibold`}
             >
-              Servicios
+              Ubicación
             </a>
             <a
               href="#contacto"

@@ -70,7 +70,10 @@ const Empresas: React.FC = () => {
   );
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-[var(--gradient-start)] via-[var(--color-bg)] to-[var(--gradient-end)] py-20 px-4 relative overflow-hidden">
+    <section
+      id="empresas"
+      className="min-h-screen bg-gradient-to-br from-[var(--gradient-start)] via-[var(--color-bg)] to-[var(--gradient-end)] py-20 px-4 relative overflow-hidden"
+    >
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[var(--color-muted)] to-transparent transform rotate-45 animate-pulse"></div>
       </div>
@@ -87,10 +90,7 @@ const Empresas: React.FC = () => {
       <div className="max-w-7xl relative z-10 mr-[20%] sm:mr-[24%] md:mr-[28%] lg:mr-[30%] ml-[6%] sm:ml-[8%] md:ml-[10%] lg:ml-[12%]">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bold text-[var(--color-text)] mb-6">
-            Nuestras{" "}
-            <span className="text-black ">
-              Empresas
-            </span>
+            Nuestras <span className="text-black ">Empresas</span>
           </h2>
           <p className="text-xl text-[var(--color-muted)] max-w-3xl mx-auto">
             Descubre el ecosistema empresarial de TAMD Group, donde cada empresa

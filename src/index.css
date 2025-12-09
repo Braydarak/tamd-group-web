@@ -1,5 +1,20 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --header-offset: 7rem;
+}
+
+#inicio,
+#empresas,
+#ubicacion,
+#contacto {
+  scroll-margin-top: var(--header-offset);
+}
+
 * {
   box-sizing: border-box;
 }
