@@ -1,6 +1,7 @@
 import Header from "./components/header";
 import CustomButton from "./components/customButton";
 import Hero from "./sections/hero";
+import Empresas from "./sections/empresas";
 import "./App.css";
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <div>
       <Header />
       <Hero />
-      {/* <Empresas /> */}
+      {/* <CompanySlider /> */}
+      <Empresas />
       {/* Sección de demostración de botones */}
       <section className="min-h-screen bg-gray-100 flex items-center justify-center">
         <div className="text-center max-w-4xl mx-auto px-4">
