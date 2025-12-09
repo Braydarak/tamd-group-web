@@ -11,11 +11,11 @@ const Hero: React.FC = () => {
           particleColors={["#ffffff", "#ffffff"]}
           particleCount={1000}
           particleSpread={12}
-          speed={0.12}
+          speed={0.10}
           particleBaseSize={150}
           moveParticlesOnHover={true}
           alphaParticles={true}
-          disableRotation={false}
+          disableRotation={true}
           className="absolute inset-0"
         />
       </div>

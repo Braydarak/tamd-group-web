@@ -1,11 +1,10 @@
 {
   "companies": [
     {
-      "id": "agro-ganaderia",
-      "name": "Agro Ganadería Levante",
+      "id": "agro-ganadera",
+      "name": "Agro Ganadera Levante",
       "logo": "/src/assets/AGRO-GANADERIA--LEVAMTE-.png",
       "sector": "Agricultura y Ganadería",
-      "founded": "2018",
       "description": "Empresa líder en el sector agropecuario del Levante español, especializada en la producción sostenible y tecnificada.",
       "history": "Fundada en 2018 con la visión de revolucionar la agricultura tradicional mediante técnicas innovadoras y sostenibles. Comenzó como una pequeña explotación familiar y ha crecido hasta convertirse en referente regional.",
       "services": [
@@ -14,14 +13,13 @@
         "Consultoría agropecuaria",
         "Tecnología agrícola"
       ],
-      "color": "#4ade80"
+      "website": "https://agroganaderadelevante.es/"
     },
     {
       "id": "bona-pedra",
       "name": "Bona Pedra",
       "logo": "/src/assets/BONA PEDRA LOGO - ORIGINAL.png",
       "sector": "Construcción y Materiales",
-      "founded": "2015",
       "description": "Especialistas en materiales de construcción de alta calidad y proyectos arquitectónicos únicos.",
       "history": "Bona Pedra nació de la pasión por la construcción tradicional mediterránea. Desde 2015, ha combinado técnicas ancestrales con innovación moderna para crear espacios únicos.",
       "services": [
@@ -30,14 +28,13 @@
         "Restauración patrimonial",
         "Construcción sostenible"
       ],
-      "color": "#f59e0b"
+      "website": "https://excavacionsbonapedra.com/"
     },
     {
       "id": "inebal",
       "name": "Inebal",
       "logo": "/src/assets/INEBAL-LOGO.png",
       "sector": "Ingeniería y Consultoría",
-      "founded": "2016",
       "description": "Firma de ingeniería especializada en soluciones técnicas avanzadas y consultoría industrial.",
       "history": "Inebal se estableció en 2016 como respuesta a la creciente demanda de soluciones de ingeniería especializadas. Ha desarrollado proyectos en múltiples sectores industriales.",
       "services": [
@@ -45,15 +42,13 @@
         "Consultoría técnica",
         "Automatización de procesos",
         "Gestión de proyectos"
-      ],
-      "color": "#3b82f6"
+      ]
     },
     {
       "id": "tamd-cosmetics",
       "name": "TAMD Cosmetics",
       "logo": "/src/assets/LOGO TAMD-COSMETICS BLANCO.png",
       "sector": "Cosmética y Belleza",
-      "founded": "2019",
       "description": "Marca de cosmética premium que combina ingredientes naturales con tecnología avanzada.",
       "history": "TAMD Cosmetics nació en 2019 con la misión de crear productos de belleza que respeten tanto la piel como el medio ambiente. Utiliza ingredientes mediterráneos únicos.",
       "services": [
@@ -62,14 +57,13 @@
         "Línea de cuidado facial",
         "Tratamientos corporales"
       ],
-      "color": "#ec4899"
+      "website": "https://tamdcosmetics.com/"
     },
     {
       "id": "gregal-properties",
       "name": "Gregal Properties",
       "logo": "/src/assets/LOGO-GREGAL-PROPERTIES.png",
       "sector": "Inmobiliario",
-      "founded": "2017",
       "description": "Desarrolladora inmobiliaria enfocada en proyectos residenciales y comerciales de lujo.",
       "history": "Gregal Properties se fundó en 2017 con el objetivo de redefinir el mercado inmobiliario mediterráneo. Se especializa en propiedades exclusivas con diseño contemporáneo.",
       "services": [
@@ -78,14 +72,13 @@
         "Gestión de activos",
         "Consultoría inmobiliaria"
       ],
-      "color": "#8b5cf6"
+      "website": "https://gregalproperties.com/"
     },
     {
       "id": "anba",
       "name": "Anba",
       "logo": "/src/assets/Logo Anba Negro.png",
       "sector": "Tecnología y Innovación",
-      "founded": "2020",
       "description": "Empresa tecnológica especializada en soluciones digitales innovadoras y transformación digital.",
       "history": "Anba emerge en 2020 como respuesta a la aceleración digital. Se ha posicionado como líder en soluciones tecnológicas personalizadas para empresas del grupo y clientes externos.",
       "services": [
@@ -94,14 +87,13 @@
         "Consultoría IT",
         "Soluciones cloud"
       ],
-      "color": "#06b6d4"
+      "website": "https://anbaconstructora.com/"
     },
     {
       "id": "mallorca-gestora",
       "name": "Mallorca Gestora de Capital",
       "logo": "/src/assets/Logo Mallorca Gestora de Capital  Sin Fondo.png",
       "sector": "Servicios Financieros",
-      "founded": "2014",
       "description": "Gestora de capital especializada en inversiones estratégicas y asesoramiento financiero.",
       "history": "Establecida en 2014 en Mallorca, se ha convertido en una gestora de referencia en el Mediterráneo, gestionando carteras diversificadas y ofreciendo asesoramiento financiero integral.",
       "services": [
@@ -109,15 +101,13 @@
         "Asesoramiento financiero",
         "Inversiones estratégicas",
         "Planificación patrimonial"
-      ],
-      "color": "#10b981"
+      ]
     },
     {
       "id": "manpowers",
       "name": "Manpowers",
       "logo": "/src/assets/MANPOWERS-BLANCO.png",
       "sector": "Recursos Humanos",
-      "founded": "2016",
       "description": "Consultora de recursos humanos especializada en selección de talento y desarrollo organizacional.",
       "history": "Manpowers inició operaciones en 2016 con el objetivo de conectar el mejor talento con las empresas más innovadoras. Ha desarrollado metodologías únicas de selección y desarrollo.",
       "services": [
@@ -126,14 +116,13 @@
         "Formación corporativa",
         "Consultoría en RRHH"
       ],
-      "color": "#f97316"
+      "website": "https://manpowers.es/"
     },
     {
       "id": "mdm",
       "name": "MDM",
       "logo": "/src/assets/MDM-LOGO.png",
       "sector": "Marketing y Comunicación",
-      "founded": "2017",
       "description": "Agencia de marketing digital y comunicación estratégica para marcas innovadoras.",
       "history": "MDM se fundó en 2017 como una agencia boutique de marketing digital. Ha crecido hasta convertirse en un socio estratégico para marcas que buscan diferenciarse en el mercado digital.",
       "services": [
@@ -141,8 +130,8 @@
         "Estrategia de marca",
         "Comunicación corporativa",
         "Gestión de redes sociales"
-      ],
-      "color": "#ef4444"
+          ],
+      "website": "http://managementmallorca.com/"
     }
   ]
 }

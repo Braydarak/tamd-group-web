@@ -7,6 +7,7 @@ interface CustomButtonProps {
   disabled?: boolean;
   className?: string;
   size?: 'sm' | 'md' | 'lg';
+  style?: React.CSSProperties;
 }
 
 const CustomButton: React.FC<CustomButtonProps> = ({
@@ -15,7 +16,8 @@ const CustomButton: React.FC<CustomButtonProps> = ({
   onClick,
   disabled = false,
   className = '',
-  size = 'md'
+  size = 'md',
+  style
 }) => {
   // Estilos base
   const baseStyles = 'font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none';
@@ -42,6 +44,7 @@ const CustomButton: React.FC<CustomButtonProps> = ({
       className={buttonClasses}
       onClick={onClick}
       disabled={disabled}
+      style={style}
     >
       {children}
     </button>
